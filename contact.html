@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Contact Form</title>
+</head>
+
+<body>
+    <nav>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact us</a>
+    </nav>
+    <main>
+        <header>
+            <h1>Contact Harsh Patel...</h1>
+            <hr>
+        </header>
+
+        <div id="padding">
+            <div id="sort">
+                    <address>
+                            - Harsh Patel <br>
+                            - + 1 647-290-6339 <br>
+                                - 3 stollar BLVD,<br>
+                                Barrie, ON L5M 7N8
+                    </address>
+                    
+
+
+                <div id="formRight" style="
+              border: 2px solid grey;
+              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+              padding: 1em;
+              color: #d64d74;">
+
+                    <form action="./index2.html" netlify method="post">
+                        <fieldset>
+                            <legend>
+                                <h3>
+                                    If any query drop your Contact Details and Message below....
+                                </h3>
+                            </legend>
+
+                            <p>
+                                <label for="firstName">First Name:</label><br>
+                                <input type="text" name="firstName" id="firstName" placeholder="Firstname" required>
+                            </p>
+
+                            <p>
+                                <label for="lastName">last Name:</label><br>
+                                <input type="text" name="lastName" id="lastName" placeholder="Lastname" required>
+                            </p>
+
+                            <p>
+                                <label for="email">E-mail:</label><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail" required>
+                            </p>
+
+                            <p>
+                                <label for="phoneNumber">Phone Number :</label><br>
+                                <input type="tel" name="phoneNumber" id="phoneNumber" placeholder="Phone Number"
+                                    maxlength="12" minlength="10">
+                            </p>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend>
+                                <h3>Message Box</h3>
+                            </legend>
+
+                            <label for="text">Drop your message below:</label>
+                            <br>
+
+                            <textarea id="text" name="text" rows="7" cols="40" placeholder="Enter your text here" required>
+                </textarea>
+                        </fieldset>
+
+                        <p>
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>&copy; Harsh Patel, 2022</footer>
+</body>
+
+</html>
