@@ -1,0 +1,121 @@
+/* Import the reset file */
+@import url(./reset.css);
+/* End of reset  */
+
+
+body > nav  {
+    display: flex;
+    justify-content: space-evenly;
+    background:grey;
+    width: 100%;
+    padding: 0.5em;
+}
+
+body >  nav a {
+    text-decoration: none;
+    color: darkblue;
+    padding: 0.4em;
+}
+
+body >  nav a:hover {
+    color: #ab0237;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+header h1, h2 {
+    text-align: center;
+    justify-content: center;
+    padding: 0.3em;
+    display: flex;
+    font-size: 50px;
+    color:#ab0237 ;
+}
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    Width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ab0237;
+    color: antiquewhite;
+    justify-content: center; 
+    text-align: center;
+    align-self: center;
+}
+
+.action{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FirstPage {
+    background-image: url(./bg.jpg);
+    background-position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 3em;
+    
+}
+
+main section p {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+    /* color:#ab0237 ; */
+    color: grey;
+    padding: 0.5em;
+
+}
+
+main section h3 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    color:#ab0237 ;
+    padding: 1em;
+
+}
+
+main section ol li {
+    text-align: center;
+    justify-content: center;
+    padding: 0.2em;
+    display: flex;
+    font-size: 30px;
+    /* color:#ab0237 ; */
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+footer {
+    
+        display: flex;
+        justify-content: space-around;
+        background:grey;
+        text-decoration: none;
+        color: Black;
+        padding: 0.7em;
+        color: darkblue;
+}
